@@ -19,8 +19,8 @@
 
 }
 
-.nav-bar .nav-menu .special-text{
-color: #FF5400;
+.nav-bar .nav-menu .special-text {
+    color: #FF5400;
 }
 
 .nav-bar .nav-menu {
@@ -96,7 +96,8 @@ color: #FF5400;
     /* 162.5% */
 }
 
-input,select {
+input,
+select {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -466,6 +467,8 @@ button {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
+    align-items: center;
+
 
 }
 
@@ -491,9 +494,8 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    justify-content: center;
 }
-
-
 
 footer {
     width: 100%;
@@ -514,4 +516,21 @@ footer {
 
 .special-text {
     color: #FF5400;
+}
+
+hr {
+    width: 393px;
+    height: 1px;
+}
+
+.social>i {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.subscribe {
+    width: 393px;
+    height: 52px;
 }
