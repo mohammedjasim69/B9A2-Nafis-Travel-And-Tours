@@ -137,21 +137,381 @@ button {
     align-items: center;
     justify-content: center;
 }
-<section class="popular-tour">
-  
-  <div class="popular-tour-text">
-    <h2>Our Popular Tours</h2>
-    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-    <br>
-    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-    <br>
-    <button>Read More</button>
 
-  </div>
-  <div class="popular-img">
-    <img src="./Images/tour_img.png" alt="">
-  </div>
-  
-</section>
+.popular-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 79%;
+    padding: 20px;
+}
+
+.popular-tour-text {
+    padding: 20px;
+}
+
+.popular-img {
+    padding: 5px;
+}
+
+.destination {
+    text-align: center;
+    padding: 20px;
+}
+
+.choose-us {
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 5px; */
+    width: 82%;
+}
+
+.image-grid1,
+.image-grid2,
+.image-grid3,
+.image-grid4,
+.image-grid5,
+.image-grid6,
+.image-grid7 {
+    position: relative;
+    /* padding: 5px; */
+
+
+}
+
+.image-text1,
+.image-text2,
+.image-text3,
+.image-text4,
+.image-text5,
+.image-text6,
+.image-text7 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    color: #FFF;
+}
+
+.services {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+
+.service-1 {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 20px;
+}
+
+.hotels-card {
+    max-width: 50%;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+.service-card {
+    max-width: 50%;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 40px;
+}
+
+.services h1 {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.guarantee-card {
+    max-width: 70%;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+}
+
+.deals-text {
+    padding: 20px;
+}
+
+.deals-discount {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.deals-card1 {
+    max-width: 100%;
+}
+
+.deals-icon {
+    color: #FF5400;
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+.deals1-img {
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.deals1-text {
+    width: 579px;
+    height: 389px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.80);
+    opacity: 10;
+    position: absolute;
+    top: 3330px;
+    bottom: 20px;
+    left: 500px;
+    right: 40px;
+
+}
+
+.deals1-text>h1,
+.deals1-text>p {
+    /* justify-content: left; */
+    /* align-items: left; */
+    text-align: left;
+    padding: 20px;
+}
+
+.deals1-text>h5 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    margin: 20px;
+}
+
+.deals2-img {
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.deals2-text {
+    width: 579px;
+    height: 389px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.80);
+    opacity: 10;
+    position: absolute;
+    top: 3850px;
+    bottom: 20px;
+    left: -400px;
+    right: 40px;
+
+}
+
+.deals2-text>h1,
+.deals2-text>p {
+    /* justify-content: left; */
+    /* align-items: left; */
+    text-align: left;
+    padding: 20px;
+}
+
+.deals2-text>h5 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    margin: 20px;
+}
+
+.deals3-img {
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.deals3-text {
+    width: 579px;
+    height: 389px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.80);
+    opacity: 10;
+    position: absolute;
+    top: 4390px;
+    bottom: 20px;
+    left: 500px;
+    right: 40px;
+
+}
+
+.deals3-text>h1,
+.deals3-text>p {
+    /* justify-content: left; */
+    /* align-items: left; */
+    text-align: left;
+    padding: 20px;
+}
+
+.deals3-text>h5 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    margin: 20px;
+}
+
+
+.place {
+    display: flex;
+    max-width: 82%;
+    padding: 0;
+    margin: auto;
+    gap: 24px;
+}
+
+.place-content {
+    width: 610px;
+    height: 424px;
+}
+
+
+.place-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    /* 150% */
+    padding-bottom: 20px;
+
+}
+
+.place-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.place-content li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    padding: 10px;
+}
+
+.newsletter {
+    display: flex;
+    /* gap: 24px; */
+
+}
+
+.newsletter-form {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.newsletter-form>input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+
+}
+
+.news-img {
+    position: relative;
+}
+
+.offer-text {
+    position: absolute;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background-color: #FF5400;
+    top: 200px;
+    /* bottom: 0px; */
+    left: 350px;
+    right: 10;
+    transform: rotate(-35deg);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 502px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 0;
+    margin: 0;
+    /* max-width: fit-content; */
+    flex-shrink: 0;
+}
+
+.company-name {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.special-text {
+    color: #FF5400;
+}
