@@ -137,3 +137,21 @@ button {
     align-items: center;
     justify-content: center;
 }
+<section class="popular-tour">
+  
+  <div class="popular-tour-text">
+    <h2>Our Popular Tours</h2>
+    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    <br>
+    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+    <br>
+    <button>Read More</button>
+
+  </div>
+  <div class="popular-img">
+    <img src="./Images/tour_img.png" alt="">
+  </div>
+  
+</section>
